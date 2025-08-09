@@ -6,6 +6,10 @@ import { Button } from "./ui/button";
 const Header = ({ scrollY }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const handleWhatsAppClick = () => {
+    window.open("https://wa.me/5516992045472?text=Olá!%20Gostaria%20de%20agendar%20uma%20tatuagem%20na%20Black%20City%20Tattoo%20Classic", "_blank");
+  };
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
