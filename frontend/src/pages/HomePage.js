@@ -28,6 +28,7 @@ const HomePage = () => {
         <ContactSection />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };
