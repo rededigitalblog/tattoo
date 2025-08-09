@@ -122,6 +122,13 @@ const Header = ({ scrollY }) => {
               >
                 Contato
               </button>
+              <Button
+                onClick={handleWhatsAppClick}
+                className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 text-sm font-medium rounded-lg shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-green-600/25 mx-3 my-2 w-auto"
+              >
+                <MessageCircle className="w-4 h-4 mr-2" />
+                WhatsApp
+              </Button>
             </div>
           </div>
         )}
