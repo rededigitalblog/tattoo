@@ -36,7 +36,7 @@ const Header = ({ scrollY }) => {
 
           {/* Desktop Menu */}
           <nav className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+            <div className="ml-10 flex items-baseline space-x-6">
               <button
                 onClick={() => scrollToSection("hero")}
                 className="text-gray-300 hover:text-orange-500 px-3 py-2 text-sm font-medium transition-colors"
@@ -67,6 +67,13 @@ const Header = ({ scrollY }) => {
               >
                 Contato
               </button>
+              <Button
+                onClick={handleWhatsAppClick}
+                className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 text-sm font-medium rounded-lg shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-green-600/25 ml-2"
+              >
+                <MessageCircle className="w-4 h-4 mr-2" />
+                WhatsApp
+              </Button>
             </div>
           </nav>
 
