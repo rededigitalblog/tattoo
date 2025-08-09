@@ -1,6 +1,7 @@
 import React from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, MessageCircle } from "lucide-react";
 import { useState } from "react";
+import { Button } from "./ui/button";
 
 const Header = ({ scrollY }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
