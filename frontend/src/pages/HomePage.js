@@ -6,6 +6,7 @@ import AboutSection from "../components/AboutSection";
 import LocationSection from "../components/LocationSection";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
+import FloatingWhatsApp from "../components/FloatingWhatsApp";
 
 const HomePage = () => {
   const [scrollY, setScrollY] = useState(0);
