@@ -16,14 +16,14 @@ const HeroSection = () => {
     >
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
         style={{
           backgroundImage: "url('https://images.unsplash.com/photo-1552627019-947c3789ffb5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwyfHx0YXR0b28lMjBhcnRpc3R8ZW58MHx8fHwxNzU0NzY5OTEyfDA&ixlib=rb-4.1.0&q=85')"
         }}
       />
       
       {/* Dark overlay to ensure text readability */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900/80 via-gray-800/70 to-black/80"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-900/60 via-gray-800/50 to-black/70"></div>
 
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
